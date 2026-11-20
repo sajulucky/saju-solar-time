@@ -34,6 +34,10 @@
     "진태양시"
   ],
   "homepage": "https://saju.bazilucky.com/solar-time",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sajulucky/saju-solar-time.git"
+  },
   "author": "Saju Lucky (https://saju.bazilucky.com)",
   "license": "MIT",
   "engines": {
