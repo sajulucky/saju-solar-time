@@ -1,0 +1,42 @@
+{
+  "name": "saju-solar-time",
+  "version": "1.0.0",
+  "description": "True solar time calculator for Saju, BaZi and Four Pillars charts. Any time zone, daylight saving handled, zero dependencies.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  },
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "saju",
+    "bazi",
+    "four-pillars",
+    "true-solar-time",
+    "apparent-solar-time",
+    "equation-of-time",
+    "korean-astrology",
+    "chinese-astrology",
+    "birth-chart",
+    "真太阳时",
+    "진태양시"
+  ],
+  "homepage": "https://saju.bazilucky.com/solar-time",
+  "author": "Saju Lucky (https://saju.bazilucky.com)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
